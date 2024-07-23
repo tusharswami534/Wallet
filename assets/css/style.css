@@ -6,71 +6,59 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none !important;
-    /* outline: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.nft {
-    color: var(--fc-black);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-xl);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
+.nav-bar-links {
+    color: var(--color-primary);
 
-.feed {
-    color: var(--fc-black);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+
+
 }
 
-.wallet {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.curser-pointer {
+    cursor: pointer;
 }
 
-.form {
+.nav-bar-links:hover {
+    -webkit-text-stroke: 1px;
     color: var(--fc-black);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+}
+
+
+.nav-bar-search {
     border-radius: 25.5px;
     border: 1px solid rgba(0, 0, 0, 0.20);
-    background: var(--fc-white);
     padding: 8px 24px;
 }
 
-.toggler {
+.mt-100 {
+    margin-top: 100px;
+}
+
+.toggler-btn-nav-bar {
     height: 23px;
     width: 40px;
     border-radius: 42px;
     background-color: var(--fc-off-white);
     border: 1px solid var(--fc-light-grey);
-    /* position: relative; */
     display: flex;
 }
 
-.toggler .button {
-    /* height: 22px; */
+.toggler-btn-nav-bar .black-circle-nav-bar {
+
     width: 21px;
     background-color: var(--fc-black);
     border-radius: 50%;
     transition: all 20ms linear;
     cursor: pointer;
-    /* position: absolute; */
-    /* top: 0; */
+
+
 }
 
-#toggle:checked~label.toggler {
+#toggle:checked~label.toggler-btn-nav-bar {
     justify-content: end;
 }
 
@@ -87,14 +75,7 @@ header {
     top: 0;
 }
 
-.number {
-    color: var(--fc-white);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 .absolute {
     position: absolute;
@@ -102,33 +83,6 @@ header {
     top: 40%;
 }
 
-.lorem {
-    color: var(--fc-black);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-xl);
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.text {
-    color: var(--fc-grey);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.card-number {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-2lg);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 
 .border-right {
@@ -137,6 +91,7 @@ header {
     border: 1px solid var(--fc-gray);
 }
 
+
 .card-1 {
     border-radius: 30px;
     background: var(--fc-white);
@@ -144,23 +99,11 @@ header {
     padding: 39px;
 }
 
-.bottom-line-1 {
-    height: 1px;
-    background: var(--fc-gray);
-}
 
-.following {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-md);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 .btn-edit {
     color: var(--fc-white);
-    font-family: 'Poppins', sans-serif;
     font-size: var(--fs-lg);
     font-style: normal;
     font-weight: 600;
@@ -183,16 +126,15 @@ header {
 
 }
 
-.bottom-line {
-    height: 1px;
+.hero-section-line {
+    height: 2px;
     opacity: 0.2;
     background: var(--fc-gray);
 }
 
 
-.card-content {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
+.hero-section-profile-about {
+    color: var(--color-primary);
     font-size: var(--fs-lg);
     font-style: normal;
     font-weight: 400;
@@ -201,25 +143,21 @@ header {
 
 }
 
-.absolute-card {
-    position: absolute;
-    transform: translateY(-50%);
-    left: 0%;
-}
 
-.absolute-1 {
+
+.like-post-btn {
     position: absolute;
     bottom: 3%;
     left: 10%;
 }
 
-.absolute-2 {
+.comment-post-btn {
     position: absolute;
     bottom: 3%;
     left: 38%;
 }
 
-.absolute-3 {
+.share-post-btn {
     position: absolute;
     bottom: 3%;
     right: 10%;
@@ -233,7 +171,7 @@ header {
     padding: 2px 12px;
 }
 
-.absolute-svg {
+.video-play-btn {
     position: absolute;
     top: 44%;
     left: 43%;
@@ -266,18 +204,16 @@ header {
 
 }
 
-.absolute-btn {
-    position: absolute;
+.edit-profile-btn {
+
     top: 32px;
     right: 13px;
 }
 
-.curser-pointer {
-    cursor: pointer;
-}
+
 
 .background-color {
-    background-color: var(--fc-grey-f8);
+    background-color: var(--color-primary-f8);
 }
 
 .bg-image {
@@ -309,38 +245,16 @@ header {
 
 .bg-color {
     border: 1px solid rgba(0, 0, 0, 0.10);
-    background: var(--fc-grey-fa);
+    background: var(--color-primary-fa);
     padding: 21px 23px 26px 27px;
 }
 
-.jhone {
-    color: var(--fc-black);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 5px;
-}
 
 .modal-text {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     max-width: 402px;
 }
 
-.comment {
-    color: var(--fc-grey);
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 .padding-30 {
     padding: 30px;
@@ -436,7 +350,7 @@ header {
 }
 
 @media(min-width:320px) and (max-width:576px) {
-    .image-width {
+    .nav-bar-img-width {
         width: 30%;
     }
 
@@ -461,14 +375,14 @@ header {
 
 @media(min-width:400px) {
     .bg-image {
-        min-height: calc(70vh - 96px);
+        min-height: calc(55vh - 96px);
 
     }
 }
 
 @media(min-width:576px) {
     .bg-image {
-        min-height: calc(70vh - 96px);
+        min-height: calc(55vh - 96px);
 
     }
 
@@ -476,7 +390,7 @@ header {
 
 @media(min-width:768px) {
     .bg-image {
-        min-height: calc(65vh - 96px);
+        min-height: calc(55vh - 96px);
 
     }
 
@@ -484,13 +398,13 @@ header {
 
 @media(min-width:992px) {
     .bg-image {
-        min-height: calc(80vh - 96px);
+        min-height: calc(55vh - 96px);
     }
 }
 
 @media(min-width:1200px) {
     .bg-image {
-        min-height: calc(85vh - 96px);
+        min-height: calc(55vh - 96px);
     }
 
     .scroll-box {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/root.css">
-    <link rel="stylesheet" href="assets/css/sty;e.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/png/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -27,24 +27,24 @@
                         </label>
                         <input type="checkbox" id="iconbox" hidden>
                         <ul class="d-flex gap-3 menulist mb-0 ps-0">
-                            <li><a class="feed" href="">Feed</a></li>
-                            <li><a class="wallet" href="">Wallet</a></li>
+                            <li><a class="nav-bar-links text-primary-color fs-lg fw-normal" href="">Feed</a></li>
+                            <li><a class="nav-bar-links text-primary-color fs-lg fw-normal" href="">Wallet</a></li>
                         </ul>
                     </div>
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="assets/img/png/logo.png" alt="icon" class="ms-2 ms-lg-0 image-width-1">
+                        <img src="assets/img/png/logo.png" alt="icon" class="ms-2 ms-lg-0 curser-pointer image-width-1">
                         <div class="d-flex align-items-center justify-content-center gap-3">
-                            <p class="nft ms-lg-2 ms-1 mb-0">NFTsee</p>
+                            <p class=" text-black fs-xl curser-pointer fw-bold ms-lg-2 ms-1 mb-0">NFTsee</p>
                             <ul class="d-flex gap-3 menulist mb-0">
-                                <li><a class="feed" href="">Feed</a></li>
-                                <li><a class="wallet" href="">Wallet</a></li>
+                                <li><a class="nav-bar-links text-primary-color  fs-lg fw-normal" href="">Feed</a></li>
+                                <li><a class="nav-bar-links text-primary-color fs-lg fw-normal" href="">Wallet</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-lg-4 gap-2">
                     <div class="d-lg-block d-none">
-                        <input type="search" placeholder="Search here..." class="form">
+                        <input type="search" placeholder="Search here..." class="text-black fs-lg fw-normal bg-white nav-bar-search">
                     </div>
                     <div class="d-block d-lg-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -53,10 +53,10 @@
                                 fill="black" />
                         </svg>
                     </div> <input type="checkbox" id="toggle" hidden>
-                    <label for="toggle" class="toggler">
-                        <span class="button"></span>
+                    <label for="toggle" class="toggler-btn-nav-bar">
+                        <span class="black-circle-nav-bar"></span>
                     </label>
-                    <img src="./assets/img/png/profile-1.png" alt="nav-image" class="image-width">
+                    <img src="./assets/img/png/profile-1.png" alt="nav-image" class="nav-bar-img-width curser-pointer">
                 </div>
             </div>
         </nav>
@@ -64,38 +64,39 @@
     </header>
 
     <section class="bg-image background-color">
-        <!-- <img src="./assets/images/hero-section-image.png" alt="image" class="w-100 "> -->
+
         <div class="container">
-            <div class="card-1 border-0 position-relative">
+            <div class="card-1 border-0 position-relative mt-100">
                 <div class="d-flex justify-content text-align">
                     <div class="d-flex card-column align-content-center justify-content-center">
                         <img src="assets/img/png/big-logo.png" alt="cardimage" class="pe-lg-5 pe-0 mx-auto">
                         <div>
                             <div>
-                                <p class="lorem mb-0 fs-sm mt-lg-0 mt-3">Lorem Mollis</p>
-                                <span class="text mb-0">@loremmollis</span>
+                                <p class="text-black fs-xl fw-medium  mb-0 fs-sm mt-lg-0 mt-3">Lorem Mollis</p>
+                                <span class="text text-primary-color fs-lg  fw-normal text-center mb-0">@loremmollis</span>
                             </div>
                             <div class="d-flex pt-lg-5 pt-3 gap-lg-5 gap-2 align-items-center justify-content-between">
                                 <div class="curser-pointer">
-                                    <p class="card-number mb-0 ">156</p>
-                                    <p class="following mb-0">Following</p>
-                                </div>
-                                <div class="border-right"></div>
-                                <div class="ps-3 border-right-1 curser-pointer">
-                                    <p class="card-number mb-0">457</p>
-                                    <p class="following mb-0">Followers</p>
+                                    <p class=" fw-medium text-primary-color fs-2lg  mb-0 ">156</p>
+                                    <p class=" text-primary-color fs-md fw-normal  mb-0">Following</p>
                                 </div>
                                 <div class="border-right"></div>
                                 <div class="ps-3 curser-pointer">
-                                    <p class="card-number mb-0">382</p>
-                                    <p class="following mb-0">Owned</p>
+                                    <p class="fw-medium text-primary-color fs-2lg  mb-0">457</p>
+                                    <p class=" text-primary-color fs-md fw-normal  mb-0">Followers</p>
+                                </div>
+                                <div class="border-right"></div>
+                                <div class="ps-3 curser-pointer">
+                                    <p class="
+                                     fw-medium text-primary-color fs-2lg  mb-0">382</p>
+                                    <p class=" text-primary-color fs-md fw-normal  mb-0">Owned</p>
                                 </div>
 
                             </div>
 
                         </div>
                     </div>
-                    <div class="ms-lg-auto ms-0 absolute-btn">
+                    <div class="ms-lg-auto ms-0 position-absolute edit-profile-btn">
                         <button class="btn-edit">
                             <span class="d-md-block d-none">Edit Profile</span>
                             <span class="d-md-none d-block">
@@ -113,9 +114,9 @@
                 </div>
 
 
-                <div class="bottom-line mt-lg-5 mt-3"></div>
+                <div class="hero-section-line mt-lg-5 mt-3"></div>
 
-                <p class="card-content pt-3 mb-0">Rhoncus facilisis cursus tortor varius vitae. Tristique varius arcu
+                <p class="hero-section-profile-about pt-3 mb-0">Rhoncus facilisis cursus tortor varius vitae. Tristique varius arcu
                     sit pretium viverra.
                     Ornare hac posuere integer
                     molestie mi aliquam quis in eget. Non arcu tempor sed facilisis non aliquet adipiscing ullamcorper
@@ -181,14 +182,14 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    <p class="mt-3 comment">Comments</p>
+                                    <p class="mt-3 text-primary-color fs-lg fw-normal  comment">Comments</p>
                                     <div class="scroll-box">
                                         <div class="d-flex gap-2">
                                             <span><img src="assets/img/png/Profile-com-1.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow ps-3">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p clatext-black fs-lg fw-normal mb-0">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -197,8 +198,8 @@
                                             <span><img src="assets/img/png/Profile-com-2.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb-0">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -207,8 +208,8 @@
                                             <span><img src="assets/img/png/Profile-com-3.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb-2">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -217,8 +218,8 @@
                                             <span><img src="assets/img/png/Profile-com-4.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb-2">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -227,8 +228,8 @@
                                             <span><img src="assets/img/png/Profile-com-3.png" alt="image"
                                                     class="w-32 h-32 h"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb-2">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -237,8 +238,8 @@
                                             <span><img src="assets/img/png/Profile-com-2.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb20">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -247,8 +248,8 @@
                                             <span><img src="assets/img/png/Profile-com-1.png" alt="image"
                                                     class="w-32 h-32"></span>
                                             <div class="bg-shadow">
-                                                <p class="jhone mb-0">Jhone Doe</p>
-                                                <p class="modal-text mb-0">Pulvinar viverra ac mauris magna
+                                                <p class="text-black fs-lg fw-normal mb-2">Jhone Doe</p>
+                                                <p class="text-primary-color modal-text fw-normal  mb-0">Pulvinar viverra ac mauris magna
                                                     lobortis
                                                     ultrices.</p>
                                             </div>
@@ -273,7 +274,7 @@
                         <img src="assets/img/png/post-1.png" alt="image" class="w-100" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -281,9 +282,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -294,9 +295,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -311,7 +312,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-2.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -319,9 +320,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -332,9 +333,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -349,7 +350,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-3.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -357,9 +358,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -370,9 +371,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -387,7 +388,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-4.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -395,9 +396,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -408,9 +409,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -426,7 +427,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-5.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -434,9 +435,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -447,9 +448,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -464,7 +465,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-6.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -472,9 +473,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -485,9 +486,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -502,7 +503,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-7.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -510,9 +511,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -523,9 +524,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -540,7 +541,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-8.png" alt="image" class="w-100 position-relative">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -548,9 +549,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -561,9 +562,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -573,7 +574,7 @@
                             </span>
 
                         </div>
-                        <div class="circle absolute-svg curser-pointer">
+                        <div class="circle position-absolute video-play-btn curser-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
                                 fill="none">
                                 <path
@@ -587,7 +588,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-9.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -595,9 +596,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -608,9 +609,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -625,7 +626,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-10.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -633,9 +634,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -646,9 +647,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -663,7 +664,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-11.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -671,9 +672,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -684,9 +685,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -696,7 +697,7 @@
                             </span>
 
                         </div>
-                        <div class="circle absolute-svg curser-pointer">
+                        <div class="circle position-absolute video-play-btn curser-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
                                 fill="none">
                                 <path
@@ -708,7 +709,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-12.png"image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -716,9 +717,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -729,9 +730,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -747,7 +748,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-13.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -755,9 +756,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -768,9 +769,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -785,7 +786,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-14.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -793,9 +794,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -806,9 +807,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -823,7 +824,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-15.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -831,9 +832,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -844,9 +845,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -856,7 +857,7 @@
                             </span>
 
                         </div>
-                        <div class="circle absolute-svg curser-pointer">
+                        <div class="circle position-absolute video-play-btn curser-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
                                 fill="none">
                                 <path
@@ -868,7 +869,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-12  position-relative mb-4">
                         <img src="assets/img/png/post-16.png" alt="image" class="w-100">
                         <div class="d-flex justify-content-between">
-                            <span class="curser-pointer d-flex absolute-1 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute like-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
                                     fill="none">
                                     <path
@@ -876,9 +877,9 @@
                                         stroke="white" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">10</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">10</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-2 align-items-center ps-2">
+                            <span class="curser-pointer d-flex position-absolute comment-post-btn align-items-center ps-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -889,9 +890,9 @@
                                         d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
                                         stroke="white" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                <p class="number mb-0 ps-3">20</p>
+                                <p class="text-white fs-lg fw-normal mb-0 ps-3">20</p>
                             </span>
-                            <span class="curser-pointer d-flex absolute-3 align-items-center">
+                            <span class="curser-pointer d-flex position-absolute share-post-btn align-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
