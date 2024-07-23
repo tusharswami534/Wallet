@@ -43,7 +43,7 @@
     width: 40px;
     border-radius: 42px;
     background-color: var(--fc-off-white);
-    border: 1px solid var(--fc-light-grey);
+    border: 1px solid var(--fc-null);
     display: flex;
 }
 
@@ -88,7 +88,7 @@ header {
 .border-right {
     height: 49px;
     width: 0.5px;
-    border: 1px solid var(--fc-gray);
+    border: 1px solid var(--fc-grey);
 }
 
 
@@ -129,7 +129,7 @@ header {
 .hero-section-line {
     height: 2px;
     opacity: 0.2;
-    background: var(--fc-gray);
+    background: var(--fc-grey);
 }
 
 

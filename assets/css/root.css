@@ -10,13 +10,12 @@
     /* font-color  */
     --fc-black: #000;
     --fc-white: #FFF;
-    --fc-grey: #666666;
     --color-primary:#666666;
-    --fc-gray: #cccccc;
+    --fc-grey: #cccccc;
     --fc-off-white: #f0f0f0;
-    --fc-light-grey: #c0c0c0;
-    --fc-grey-f8: #f8f8f8;
-    --fc-grey-fa: #fafafa;
+    --fc-null: #c0c0c0;
+
+
 
 }
 /*================== font-size ======================= */
